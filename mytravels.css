@@ -1,0 +1,70 @@
+html {
+    font-family:'Amatic SC', cursive;/* this should be the rest of the output you got from Google fonts */
+    text-align: center; 
+    color: white;
+  }
+
+  h1 {
+    font-size: 60px;
+    /* text-decoration: underline; */
+    margin: 0;
+    padding: 20px 0;    
+    color: white;
+    text-shadow: -1px 1px 1px whitesmoke;
+  }
+
+  h2 {
+    font-size: 50px; 
+    color: black;
+  }
+
+  
+  p {
+    font-size: 20px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  ul, li {
+    margin: 0px;
+    padding: 0; 
+    }
+ 
+  nav {
+    font-size:20px;
+  }
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    /* border: 5px solid white; */
+    background-image: url(mytravels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+  margin-bottom: 0px;
+  /* display: flex; */
+  flex-flow: row wrap;
+  /* position: center; */
+  /* text-align: center; */
+  /* margin: 0px; */
+}
+
+main, header, footer {
+  /* background-color: rgba(199, 180, 187, 0.5); */
+  /* background: repeating-linear-gradient(to top left,
+    lightpink, lightpink 5px, white 5px, white 10px); */
+  padding: 1%;
+  /* position: absolute; */
+  /* overflow-y: scroll; */
+}
+
+a:hover {
+ color: white;
+ text-decoration: none;
+}

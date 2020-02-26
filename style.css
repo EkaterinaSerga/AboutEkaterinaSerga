@@ -1,0 +1,118 @@
+html {
+    /* font-size: 8px; px means "pixels": the base font size is now 10 pixels high  */
+    font-family:'Amatic SC', cursive;/* this should be the rest of the output you got from Google fonts */
+    text-align: center; 
+    color: white;
+    /*background-color: #F3F781;*/
+  }
+
+  h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 20px 0;    
+    color: white;
+    text-shadow: -1px 1px 1px whitesmoke;
+  }
+
+  h2 {
+    font-size: 40px; 
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 20px;    
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  blockquote {
+    font-size: 20px;    
+    line-height: 2;
+    letter-spacing: 1px;
+    color: yellow;
+    width: 200px;
+  }
+
+  cite{
+    color:white;
+  }
+
+  /* img {
+    display: block;
+    margin: 0 auto;
+  } */
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+    }
+ 
+  nav {
+    font-size:30px;
+    /* text-align: center; */
+    /* margin: 10; */
+  }
+
+body {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid white;
+    background-image: url(music.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* text-align: center; */
+}
+
+/* .bg-image {
+    position: fixed;
+
+    background-image: url(images/music.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    opacity: 0.4;
+
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+} */
+
+header {
+  margin-bottom: 0px;
+  /* display: flex; */
+  flex-flow: row wrap;
+  /* position: center; */
+  /* text-align: center; */
+  /* margin: 0;
+  padding: 20px 0;  */
+}
+
+/* header img {
+  display: block;
+  height: 60px;
+  padding-top: 20.15px;
+} */
+
+main, header {
+  background-color: rgba(199, 180, 187, 0.5);
+  padding: 1%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
